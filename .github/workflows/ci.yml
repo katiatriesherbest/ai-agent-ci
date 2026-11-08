@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 env:
-  IMAGE: ghcr.io/katiatriesherbest/ai-agent-docker:latest   # ALL LOWERCASE
+  IMAGE: ghcr.io/katiatriesherbest/ai-agent-ci:latest   # ALL LOWERCASE
 
 jobs:
   test:
